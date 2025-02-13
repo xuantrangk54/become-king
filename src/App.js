@@ -1,23 +1,21 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import GameList from "./GameList";
-import GameDetails from "./GameDetails";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import GameList from "./Components/GameList";
+import GameDetails from "./Components/GameDetails";
 
-
-function App() {
-  const games = [
-    { id: 1, name: "Game 1", image: "https://via.placeholder.com/300" },
-    { id: 2, name: "Game 2", image: "https://via.placeholder.com/300" },
-    { id: 3, name: "Game 3", image: "https://via.placeholder.com/300" },
-  ];
+const App = () => {
   return (
     <Router>
-      <Switch>
-        <Route exact path="/" render={() => <GameList games={games} />} />
-        <Route path="/game/:gameId" component={GameDetails} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<GameList />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/games" element={<GameList />} />
+        <Route path="/game/:gameId" element={<GameDetails />} />
+      </Routes>
     </Router>
   );
-}
+};
 
 export default App;
