@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/become-king/static/css/main.f855e6bc.css",
-    "main.js": "/become-king/static/js/main.e7ecbe2f.js",
+    "main.css": "/become-king/static/css/main.e6c13ad2.css",
+    "main.js": "/become-king/static/js/main.725ba868.js",
     "static/js/453.1d8a410e.chunk.js": "/become-king/static/js/453.1d8a410e.chunk.js",
-    "static/media/logo.svg": "/become-king/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/become-king/index.html",
-    "main.f855e6bc.css.map": "/become-king/static/css/main.f855e6bc.css.map",
-    "main.e7ecbe2f.js.map": "/become-king/static/js/main.e7ecbe2f.js.map",
+    "main.e6c13ad2.css.map": "/become-king/static/css/main.e6c13ad2.css.map",
+    "main.725ba868.js.map": "/become-king/static/js/main.725ba868.js.map",
     "453.1d8a410e.chunk.js.map": "/become-king/static/js/453.1d8a410e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.e7ecbe2f.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.725ba868.js"
   ]
 }
